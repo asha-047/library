@@ -1,24 +1,23 @@
 # library
-Absolutely! Here’s a complete and professional `README.md` file for your **Readers' Nest** GitHub repo:
 
 ---
 
 ```markdown
 # 📚 Readers' Nest
-
+```
 **A Community-Centered Digital Library built with Flask and Google Cloud**
 
 **Readers' Nest** is a cloud-hosted web platform where book lovers can upload, share, search, and download books. It's built as an open and collaborative reading space for everyone — whether you're a casual reader or an active contributor.
 
 ---
-
-## 🔗 Live Demo
+```
+🔗 Live Demo
 
 🌐 [https://readers-nest-xyz.run.app](https://readers-nest-xyz.run.app)  
 
 ---
 
-## ✨ Features
+✨ Features
 
 - 🔐 User registration & login
 - 📥 Upload books with file attachments
@@ -29,7 +28,7 @@ Absolutely! Here’s a complete and professional `README.md` file for your **Rea
 
 ---
 
-## 🛠️ Tech Stack
+🛠️ Tech Stack
 
 | Layer        | Technology                       |
 |--------------|----------------------------------|
@@ -41,7 +40,7 @@ Absolutely! Here’s a complete and professional `README.md` file for your **Rea
 
 ---
 
-## 📁 Folder Structure
+ 📁 Folder Structure
 readers-nest/
 │
 ├── app.py # Main Flask app
