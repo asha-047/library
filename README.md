@@ -9,8 +9,8 @@
 **Readers' Nest** is a cloud-hosted web platform where book lovers can upload, share, search, and download books. It's built as an open and collaborative reading space for everyone — whether you're a casual reader or an active contributor.
 
 ---
-```
-🔗 Live Demo
+
+# 🔗 Live Demo
 
 🌐 (https://library-app-545075885582.asia-south1.run.app)
 
@@ -40,6 +40,7 @@
 ---
 
  📁 Folder Structure
+ ```
 readers-nest/
 │
 ├── app.py # Main Flask app
@@ -54,21 +55,21 @@ readers-nest/
 ````
 
 
-```
+
 
 
 ---
 
 🧠 Database Schema
 
-`users`
+users
 | Field     | Type         |
 |-----------|--------------|
 | id        | INT (PK)     |
 | username  | VARCHAR(50)  |
 | password  | VARCHAR(100) |
 
-`books`
+books
 | Field     | Type         |
 |-----------|--------------|
 | id        | INT (PK)     |
@@ -77,7 +78,6 @@ readers-nest/
 | filename  | VARCHAR(255) |
 
 ---
-```
 🚀 Setup (Local or GCP)
 
 1. Clone the Repository
