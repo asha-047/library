@@ -16,7 +16,7 @@
 
 ---
 
-#✨ Features
+# ✨ Features
 
 - 🔐 User registration & login
 - 📥 Upload books with file attachments
@@ -27,7 +27,7 @@
 
 ---
 
-#🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 | Layer        | Technology                       |
 |--------------|----------------------------------|
@@ -39,7 +39,7 @@
 
 ---
 
- #📁 Folder Structure
+ # 📁 Folder Structure
  ```
 readers-nest/
 │
@@ -58,7 +58,7 @@ readers-nest/
 
 ---
 
-#🧠 Database Schema
+# 🧠 Database Schema
 
 users
 | Field     | Type         |
