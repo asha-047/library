@@ -2,11 +2,8 @@
 
 ---
 
-```markdown
-```
 # 📚 Readers' Nest
-```
-```
+
 **A Community-Centered Digital Library built with Flask and Google Cloud**
 
 **Readers' Nest** is a cloud-hosted web platform where book lovers can upload, share, search, and download books. It's built as an open and collaborative reading space for everyone — whether you're a casual reader or an active contributor.
@@ -15,7 +12,7 @@
 ```
 🔗 Live Demo
 
-🌐 [https://readers-nest-xyz.run.app](https://readers-nest-xyz.run.app)  
+🌐 (https://library-app-545075885582.asia-south1.run.app)
 
 ---
 
@@ -62,16 +59,16 @@ readers-nest/
 
 ---
 
-## 🧠 Database Schema
+🧠 Database Schema
 
-### `users`
+`users`
 | Field     | Type         |
 |-----------|--------------|
 | id        | INT (PK)     |
 | username  | VARCHAR(50)  |
 | password  | VARCHAR(100) |
 
-### `books`
+`books`
 | Field     | Type         |
 |-----------|--------------|
 | id        | INT (PK)     |
@@ -80,24 +77,26 @@ readers-nest/
 | filename  | VARCHAR(255) |
 
 ---
+```
+🚀 Setup (Local or GCP)
 
-## 🚀 Setup (Local or GCP)
-
-### 1. Clone the Repository
-```bash
+1. Clone the Repository
+```
+bash
 git clone https://github.com/your-username/readers-nest.git
 cd readers-nest
 ````
 
 ### 2. Install Dependencies
-
-```bash
+```
+bash
 pip install -r requirements.txt
 ```
 
 ### 3. Set Environment Variable (for GCP)
 
-```bash
+```
+bash
 export DB_HOST=/cloudsql/YOUR-PROJECT-ID:REGION:INSTANCE-NAME
 ```
 
