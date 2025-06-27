@@ -42,10 +42,7 @@ Absolutely! Here’s a complete and professional `README.md` file for your **Rea
 ---
 
 ## 📁 Folder Structure
-
-```
-
-eaders-nest/
+readers-nest/
 │
 ├── app.py # Main Flask app
 ├── requirements.txt # Python dependencies
@@ -57,6 +54,10 @@ eaders-nest/
 │ └── edit.html
 
 ````
+
+
+```
+
 
 ---
 
