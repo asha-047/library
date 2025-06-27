@@ -45,16 +45,16 @@ Absolutely! Here’s a complete and professional `README.md` file for your **Rea
 
 ```
 
-readers-nest/
+eaders-nest/
 │
-├── app.py                # Main Flask app
-├── requirements.txt      # Python dependencies
-├── uploads/              # Uploaded files stored here
-├── templates/            # All HTML pages
-│   ├── index.html
-│   ├── login.html
-│   ├── register.html
-│   └── edit.html
+├── app.py # Main Flask app
+├── requirements.txt # Python dependencies
+├── uploads/ # Uploaded files stored here
+├── templates/ # All HTML pages
+│ ├── index.html
+│ ├── login.html
+│ ├── register.html
+│ └── edit.html
 
 ````
 
