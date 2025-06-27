@@ -117,7 +117,9 @@ gcloud run deploy readers-nest \
 
 ## 👩‍💻 Author
 
-**\[Asha Bhokare]**
+**Asha Bhokare**
+
 B.E. Computer Engineering
-📫 \[[ashabhokare74@gmail.com]]
+
+📫 [[ashabhokare74@gmail.com]]
 
