@@ -16,7 +16,7 @@
 
 ---
 
-✨ Features
+#✨ Features
 
 - 🔐 User registration & login
 - 📥 Upload books with file attachments
@@ -27,7 +27,7 @@
 
 ---
 
-🛠️ Tech Stack
+#🛠️ Tech Stack
 
 | Layer        | Technology                       |
 |--------------|----------------------------------|
@@ -39,7 +39,7 @@
 
 ---
 
- 📁 Folder Structure
+ #📁 Folder Structure
  ```
 readers-nest/
 │
@@ -56,11 +56,9 @@ readers-nest/
 
 
 
-
-
 ---
 
-🧠 Database Schema
+#🧠 Database Schema
 
 users
 | Field     | Type         |
@@ -78,35 +76,32 @@ books
 | filename  | VARCHAR(255) |
 
 ---
-🚀 Setup (Local or GCP)
 
-1. Clone the Repository
-```
-bash
-git clone https://github.com/your-username/readers-nest.git
-cd readers-nest
-````
+# 🚀 Deployment to Google Cloud Run
 
-### 2. Install Dependencies
-```
-bash
-pip install -r requirements.txt
-```
-
-### 3. Set Environment Variable (for GCP)
-
-```
-bash
-export DB_HOST=/cloudsql/YOUR-PROJECT-ID:REGION:INSTANCE-NAME
-```
-
-### 4. Run the App
+#### 1. Enable Required Services
 
 ```bash
-python app.py
+gcloud services enable run sqladmin compute cloudbuild
 ```
 
-Or deploy using a Docker container to GCP Cloud Run.
+#### 2. Build & Submit to Cloud Build
+
+```bash
+gcloud builds submit --tag gcr.io/YOUR_PROJECT_ID/readers-nest
+```
+
+#### 3. Deploy to Cloud Run
+
+```bash
+gcloud run deploy readers-nest \
+  --image gcr.io/YOUR_PROJECT_ID/readers-nest \
+  --platform managed \
+  --region asia-south1 \
+  --allow-unauthenticated \
+  --add-cloudsql-instances YOUR_PROJECT_ID:asia-south1:lib-db \
+  --set-env-vars DB_HOST=/cloudsql/YOUR_PROJECT_ID:asia-south1:lib-db
+```
 
 ---
 
@@ -124,5 +119,5 @@ Or deploy using a Docker container to GCP Cloud Run.
 
 **\[Asha Bhokare]**
 B.E. Computer Engineering
-📫 \[[your.email@example.com](mailto:your.email@example.com)]
+📫 \[[ashabhokare74@gmail.com]]
 
